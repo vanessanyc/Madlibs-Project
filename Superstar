@@ -7,3 +7,4 @@ superstar = "" #creates a string variable
 #Multiple ways to concatenate strings
 print("I love " + superstar + "!")
 print("I love {}!".format(superstar)) #will input superstar into curly braces
+print(f"I love {superstar}!") #most straight forward way to concatenate strings
